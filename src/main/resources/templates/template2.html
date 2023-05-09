@@ -45,6 +45,7 @@
     <!-- 생성 URL : /template2 -->
     <a th:href="@{/template2}">template2</a><br />
     <!-- 생성 URL : /template2?param1=1234 -->
+    <!--(param1=${value1}) -> querystring-->
     <a th:href="@{/template2(param1=1234)}">template2 with static param</a><br />
     <!-- 생성 URL : /template2?param1=1234 -->
     <a th:href="@{/template2(param1=${value1})}">template2 with variable param</a><br />
